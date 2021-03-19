@@ -1,0 +1,33 @@
+nav {
+    max-width: 1000px;
+    height: 3rem;
+    background: lightgray;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav img {
+    height: 50%;
+    margin: auto auto auto 1rem; 
+}
+
+nav a {
+    text-decoration: none;
+    color: darkgrey;
+    margin: 1rem;
+}
+nav a:hover {
+    color: black;
+}
+
+nav a.login {
+    border: 1px solid darkgrey;
+    border-radius: 0.25rem;
+    margin-left: auto;
+}
+
+nav a.login:hover {
+    color: black;
+    border: 1px solid black;
+}
