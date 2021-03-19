@@ -1,0 +1,21 @@
+nav {
+    max-width: 1000px;
+    background: lightgray;
+    display: flex;
+    height: 3rem;
+   }
+
+nav a {
+    text-decoration: none;
+    color: rgb(78, 76, 76);
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a:hover {
+    background:  rgb(78, 76, 76);
+    color: lightgray;
+}
+

@@ -1,0 +1,25 @@
+body {
+    background: lightgray;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+}
+
+main {
+
+    background: white;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+
+}
+
+aside {
+    width: 240px;
+    height: 240px;
+    background: rgb(107, 20, 20);
+    border-radius: 50%;
+    margin: auto;
+
+}

@@ -1,0 +1,43 @@
+body {
+    background: lightgray;
+    height: 100vh;
+    display: flex;
+
+}
+
+.card {
+    width: 250px;
+    height: 400px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 5%;
+    justify-content: space-between;
+    align-items: center;
+    color: darkred;
+    font-size: 4rem;
+}
+
+aside {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    align-self: flex-start;
+    margin: 20px;
+}
+
+.card span {
+    color: rgb(78, 78, 78);
+}
+
+.bottom {
+    transform: rotate(180deg);
+    align-self: flex-end;
+    margin: 20px;
+}
